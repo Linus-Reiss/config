@@ -1,10 +1,9 @@
 {
-
-  imports = [
-    ./nvf.nix
-    ./packages.nix
-    ./nh.nix
-    ./configuration.nix
-  ];
+        imports = [
+                ./nvf.nix
+                ./packages.nix
+                ./nh.nix
+                ./configuration.nix
+        ];
 
 }

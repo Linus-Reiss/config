@@ -1,12 +1,7 @@
+{ pkgs, ... }:
 {
-  pkgs,
-  ...
-}:
-{
-
-  environment.systemPackages = with pkgs; [
-    tealdeer
-    nixfmt-tree
-  ];
+        environment.systemPackages = with pkgs; [
+                tealdeer
+        ];
 
 }
